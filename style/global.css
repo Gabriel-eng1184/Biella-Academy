@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #FDFDF5;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.cabecalho-img{
+    height: 150px;
+}
+
+.nav-botao{
+    display: flex;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 20px;
+    gap: 2px;
+    box-shadow: 0 4px 12px  #2c2c2c7c;
+}
+
+.botao-act{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    color: #2c2c2c7c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.botao{
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    background-color: transparent;
+    color: #a09f9f;
+    transition: 0.3s;
+}
+
+.botao:hover{
+    background-color: #fff;
+}
+
+.content{
+    padding: 60px;
+}
+
+main{
+    padding-left: 2rem;
+    text-align: justify;
+}
+
+h1{
+    color: #000000;
+    font-weight: 900;
+    font-size: 150px;
+    text-shadow: 0 4px 12px  #2c2c2c7c;
+    /*padding-left: 2rem;*/
+}
+
+.txt{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    /*padding-left: 2rem;*/
+    font-weight: 400;
+}
+
+.whoim{
+    padding-top: 30px;
+}
