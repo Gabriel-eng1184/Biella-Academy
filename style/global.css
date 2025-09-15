@@ -56,14 +56,14 @@
 }
 
 main{
-    padding-left: 2rem;
+    padding-left: 2px;
     text-align: justify;
 }
 
 h1{
     color: #000000;
     font-weight: 900;
-    font-size: 150px;
+    font-size: 8rem;
     text-shadow: 0 4px 12px  #2c2c2c7c;
     /*padding-left: 2rem;*/
 }
